@@ -1,17 +1,16 @@
+mod uncolored;
+
 use std::collections::{HashMap, HashSet, VecDeque};
-use std::fs::File;
-use std::io::{BufRead, Read, stdin};
-use std::path::Path;
+use std::io::{BufRead, stdin};
 use rand::random;
+#[cfg(feature = "colored")]
 use colored::*;
+#[cfg(not(feature = "colored"))]
+use uncolored::*;
 
 
 fn main() {
-    let mut wsdb_file = File::open(Path::new("wsdb.txt")).expect("WSDB FILE NOT FOUND.");
-    let mut wsdb_string = String::default();
-    wsdb_file.read_to_string(&mut wsdb_string).expect("WSDB READ FAILED.");
-
-    drop(wsdb_file);
+    let wsdb_string = include_str!("../wsdb.txt");
 
     {   // ensure against duplicate tranlations
         let mut set = HashSet::new();
