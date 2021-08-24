@@ -131,12 +131,14 @@ deur.through
 net.just
 vorm.form
 vonnis.sentence
+sin.sentence
 groot.great
 goed.great
 dink.think
 sê.say
 help.help
 lae.low
+laag.low
 lyn.line
 verskil.differ
 beurt.turn
@@ -264,11 +266,10 @@ idee.idea
 vis.fish
 berg.mountain
 stop.stop
-keer.once
 basis.base
 hoor.hear
 perd.horse
-cut.cut
+sny.cut
 seker.sure
 kyk.watch
 kleur.color
@@ -291,6 +292,7 @@ groep.group
 altyd.always
 musiek.music
 diegene.those
+daardie.those
 beide.both
 merk.mark
 dikwels.often
@@ -350,6 +352,7 @@ top.top
 geheel.whole
 koning.king
 straat.street
+duim.thumb
 duim.inch
 vermeerder.multiply
 niks.nothing
@@ -403,7 +406,6 @@ tussen.among
 eenheid.unit
 krag.power
 dorp.town
-fyn.fine
 sekere.certain
 vlieg.fly
 lei.lead
@@ -543,7 +545,7 @@ gevoel.felt
 bal.ball
 nog.yet
 golf.wave
-drop.drop
+laat val.drop
 hart.heart
 is.am
 huidige.present
@@ -940,7 +942,7 @@ of.nor
 dubbel.double
 sitplek.seat
 blok.block
-grafiek.chart
+grafiek.graph
 hoed.hat
 verkoop.sell
 sukses.success
@@ -1006,8 +1008,9 @@ bevredig.satisfy
 belasting.law
 begroting.budget
 bestaan.exist
-beheer.manage
-beheerbare.managable
+bestuur.manage
+hanteer.handle
+hanteerbare.manageable
 bestryding.combat
 besluit.decision
 draad.cord
