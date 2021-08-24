@@ -1,7 +1,9 @@
 mod uncolored;
 
 use std::collections::{HashMap, HashSet, VecDeque};
-use std::io::{BufRead, stdin};
+use std::fs::File;
+use std::io::{BufRead, Read, stdin};
+use std::path::Path;
 use rand::random;
 #[cfg(feature = "colored")]
 use colored::*;
@@ -10,7 +12,9 @@ use uncolored::*;
 
 
 fn main() {
-    let wsdb_string = include_str!("../wsdb.txt");
+    let mut wsdb_file = File::open(Path::new("wsdb.txt")).unwrap();
+    let mut wsdb_string = String::new(); // include_str!("../wsdb.txt");
+    wsdb_file.read_to_string(&mut wsdb_string).unwrap();
 
     {   // ensure against duplicate tranlations
         let mut set = HashSet::new();

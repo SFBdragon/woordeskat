@@ -306,7 +306,6 @@ genoeg.enough
 meisie.girl
 gewone.usual
 jong.young
-gereed.ready
 bo.above
 ooit.ever
 rooi.red
@@ -1256,3 +1255,25 @@ spoedig.soon
 binnekort.soon
 noodsaaklik.necessary
 onderrig.teach
+verwerp.reject
+regspan.legal team
+gereed.ready
+beveg.fight
+verhoed.prevent
+verhoed.hinder
+bydraes.contributions
+voorstel.proposal
+voorstel.propose
+bankrot.bankrupt
+verpligting.obligation
+verset.resistance
+uitgediende.obsolete
+belasting.tax
+verregaande.outrageous
+twyfel.doubt
+inteendeel.on the contrary
+belang.significance
+vereniging.association
+gang.passage
+beleef.polite
+behoud.retention
