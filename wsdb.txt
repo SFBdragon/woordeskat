@@ -1280,3 +1280,8 @@ vereniging.association
 gang.passage
 beleef.polite
 behoud.retention
+opsig.respect
+benaderings.approaches
+algemeen.general
+voortleef.survive
+oorleef.survive
