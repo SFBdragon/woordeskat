@@ -58,27 +58,28 @@ fn main() {
     println!("------------------------------\n");
 
     let mut count = 0usize;
-    let mut error = VecDeque::with_capacity(5);
-    let mut enforce = VecDeque::with_capacity(10);
+    let mut errors = VecDeque::with_capacity(5);
+    let mut enforces = VecDeque::with_capacity(10);
     for _ in 0..5 {
-        error.push_back(None);
-        enforce.push_back(None);
-        enforce.push_back(None);
+        errors.push_back(None);
+        enforces.push_back(None);
+        enforces.push_back(None);
     }
     
     loop {
         let mut is_err = false;
-        let err = error.pop_front().expect("ERROR QUEUE EMPTY");
-        let enf = enforce.pop_front().expect("ENFORCE QUEUE EMPTY");
+        let err = errors.pop_front().expect("ERROR QUEUE EMPTY");
+        let enf = enforces.pop_front().expect("ENFORCE QUEUE EMPTY");
 
         let counter;
+        // fixme: enforce is eaten if both err and enf are Option::Some
         let (ask, asklang, ans, anslang)
-        = if let Some(t) = enf {
-            counter = "RE".green();
-            t
-        } else if let Some(t) = err {
+        = if let Some(t) = err {
             is_err = true;
             counter = "RE".red();
+            t
+        } else if let Some(t) = enf {
+            counter = "RE".green();
             t
         } else {
             count += 1;
@@ -91,7 +92,7 @@ fn main() {
                 (key, "English".blue(), eng_map.get(key).expect(""), "Afrikaans".magenta())
             }
         };
-
+        
         println!("{}. {} to {}: {}", counter, &asklang, &anslang, &ask);
 
         let mut input = String::with_capacity(30);
@@ -100,12 +101,12 @@ fn main() {
 
         if ans.iter().any(|x| levenshtein::levenshtein(&input, x) < 2) {
             println!("{}", "Correct".green());
-            error.push_back(None);
-            enforce.push_back(if is_err { Some((ask, asklang, ans, anslang)) } else { None });
+            errors.push_back(None);
+            enforces.push_back(if is_err { Some((ask, asklang, ans, anslang)) } else { None });
         } else {
             println!("{}", "Incorrect".red());
-            error.push_back(Some((ask, asklang, ans, anslang)));
-            enforce.push_back(None);
+            errors.push_back(Some((ask, asklang, ans, anslang)));
+            enforces.push_back(None);
         }
         print!("Tranlations: {}", ans[0]);
         for tl in ans.iter().skip(1) {

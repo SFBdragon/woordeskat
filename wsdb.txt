@@ -78,6 +78,7 @@ Wet.act
 Hoekom.why
 vra.ask
 mans.men
+verander.change
 verandering.change
 gegaan.went
 lig.light
@@ -123,7 +124,6 @@ elke.every
 goeie.good
 my.me
 gee.give
-ons.our
 onder.under
 naam.name
 baie.very
@@ -227,6 +227,7 @@ vier.four
 tussen.between
 staat.state
 hou.keep
+hou.like
 oog.eye
 nooit.never
 laaste.last
@@ -356,7 +357,8 @@ duim.thumb
 duim.inch
 vermeerder.multiply
 niks.nothing
-natuurlik.course
+natuurlik.of course
+natuurlik.naturally
 bly.stay
 wiel.wheel
 vol.full
@@ -533,7 +535,6 @@ grootte.size
 wissel.vary
 vestig.settle
 praat.speak
-algemene.general
 ys.ice
 saak.matter
 sirkel.circle
@@ -555,6 +556,7 @@ dans.dance
 enjin.engine
 posisie.position
 arm.arm
+arm.poor
 wye.wide
 wyd.wide
 vaar.sail
@@ -565,6 +567,7 @@ sit.sit
 venster.window
 winkel.store
 somer.summer
+sommer.just as well
 trein.train
 slaap.sleep
 bewys.prove
@@ -903,7 +906,8 @@ vroue.women
 seisoen.season
 oplossing.solution
 silwer.silver
-dankie.thank
+bedank.thank
+dankie.thank you
 tak.branch
 wedstryd.match
 agtervoegsel.suffix
@@ -962,7 +966,6 @@ kamp.camp
 bedink.invent
 gebore.born
 bepaal.determine
-kwart.quart
 nege.nine
 vragmotor.truck
 geraas.noise
@@ -1221,7 +1224,6 @@ voormalige.previous
 geheim.secret
 raad.advice
 besorg.concerned
-algemene.prevalent
 verskynsel.occurance
 deursnee.average
 gemiddeld.average
@@ -1283,5 +1285,8 @@ behoud.retention
 opsig.respect
 benaderings.approaches
 algemeen.general
+algemeen.prevalent
+algemene.general
+algemene.prevalent
 voortleef.survive
 oorleef.survive
