@@ -419,7 +419,7 @@ wag.wait
 plan.plan
 figuur.figure
 ster.star
-box.box
+boks.box
 naamwoord.noun
 gebied.field
 res.rest
@@ -431,7 +431,6 @@ ry.drive
 ry.ride
 staan.stood
 bevat.contain
-front.front
 leer.teach
 week.week
 finale.final
@@ -825,6 +824,7 @@ stroom.stream
 vrees.fear
 oë.sight
 dun.thin
+maer.thin
 driehoek.triangle
 planeet.planet
 haastig.hurry
@@ -938,7 +938,7 @@ aand.evening
 toestand.condition
 voer.feed
 hulpmiddel.tool
-totale.total
+totaal.total
 basiese.basic
 reuk.smell
 vallei.valley
@@ -1178,8 +1178,7 @@ indiensneming.employment
 saamsmelt.merge
 saamsmelting.merger
 staak bedryf.cease business
-marketverwante.market related
-marketverwante.industry specific
+industrie spesifiek.industry specific
 agteruitgang.regression
 vooruitgang.advancement
 verskaf.supply
