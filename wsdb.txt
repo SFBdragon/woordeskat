@@ -429,7 +429,7 @@ gedoen.done
 skoonheid.beauty
 ry.drive
 ry.ride
-staan.stood
+gestaan.stood
 bevat.contain
 leer.teach
 week.week
@@ -575,7 +575,6 @@ been.leg
 oefening.exercise
 muur.wall
 vang.catch
-berg.mount
 wens.wish
 lug.sky
 lug.air
@@ -893,7 +892,6 @@ beweging.motion
 pad.path
 vloeistof.liquid
 bedoel.meant
-kwosiënt.quotient
 tande.teeth
 dop.shell
 nek.neck
@@ -1008,7 +1006,7 @@ bydra.contribute
 beoogde.proposed
 bekwaamheid.capability
 bevredig.satisfy
-belasting.law
+belasting.tax
 begroting.budget
 bestaan.exist
 bestuur.manage
