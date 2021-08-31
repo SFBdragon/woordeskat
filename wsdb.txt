@@ -115,6 +115,8 @@ na.after
 terug.back
 bietjie.little
 slegs.only
+enigste.only
+net.only
 rond.round
 man.man
 jaar.year
@@ -350,7 +352,7 @@ geweet.knew
 slaag.pass
 sedert.since
 top.top
-geheel.whole
+hele.whole
 koning.king
 straat.street
 duim.thumb
@@ -382,6 +384,7 @@ moontlik.possible
 vliegtuig.plane
 plek.stead
 droë.dry
+droog.dry
 wonder.wonder
 lag.laugh
 duisend.thousand
@@ -452,6 +455,7 @@ gedagte.mind
 gedagte.thought
 agter.behind
 duidelik.clear
+duidelik.apparent
 stert.tail
 produseer.produce
 fiet.fact
@@ -951,7 +955,8 @@ sukses.success
 maatskappy.company
 aftrek.subtract
 gebeurtenis.event
-bepaalde.particular
+bepaalde.determined
+besondere.particular
 transaksie.deal
 swem.swim
 termyn.term
@@ -1215,9 +1220,8 @@ senuweeagtig.agitated
 senuweeagtig.distressed
 buigsaamhuid.flexibility
 onderdruk.suppress
-voormalige.past
+voormalige.former
 verlede.past
-voormalige.previous
 geheim.secret
 raad.advice
 besorg.concerned
