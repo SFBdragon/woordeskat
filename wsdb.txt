@@ -566,6 +566,7 @@ vaar.sail
 materiaal.material
 breuk.fraction
 bos.forest
+woud.forest
 sit.sit
 venster.window
 winkel.store
@@ -630,7 +631,7 @@ behalwe.except
 geskryf.wrote
 saad.seed
 toon.tone
-sluit.join
+aansluit.join
 stel.suggest
 skoon.clean
 breek.break
@@ -830,7 +831,8 @@ dun.thin
 maer.thin
 driehoek.triangle
 planeet.planet
-haastig.hurry
+haastig.hurried
+haastig.hasty
 hoof.chief
 kolonie.colony
 klok.clock
@@ -876,6 +878,7 @@ behoorlike.proper
 aanbod.offer
 slaaf.slave
 eend.duck
+onmiddellik.instantly
 oombliklik.instantly
 oomblik.instant
 mark.market
@@ -1214,7 +1217,7 @@ raak.touch
 raak.effect
 waardigheid.dignity
 betrokke.involved
-aanmoedig.encouraged
+aanmoedig.encourage
 versteur.disturb
 senuweeagtig.agitated
 senuweeagtig.distressed
