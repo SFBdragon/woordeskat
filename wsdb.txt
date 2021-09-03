@@ -337,6 +337,7 @@ Syfer.numeral
 klas.class
 wind.wind
 vraag.question
+vraag.demand
 gebeur.happen
 volledige.complete
 voltooi.complete
@@ -427,9 +428,10 @@ naamwoord.noun
 gebied.field
 res.rest
 korrekte.correct
-staat.able
+in staat.able
 gedoen.done
 skoonheid.beauty
+bestuur.drive
 ry.drive
 ry.ride
 gestaan.stood
@@ -706,7 +708,7 @@ plat.flat
 twintig.twenty
 vel.skin
 glimlag.smile
-toename.crease
+toename.increase
 gat.hole
 spring.jump
 baba.baby
@@ -751,7 +753,7 @@ temperatuur.temperature
 vinger.finger
 bedryf.industry
 waarde.value
-stryd.fight
+stryd.struggle
 leuen.lie
 klop.beat
 opgewonde.excite
@@ -1069,6 +1071,7 @@ nuuskierig.curious
 nagereg.dessert
 opwindend.exciting
 onderwyskundig.educational
+onderwys.education
 ontduik.avoid
 ontmoedige.demotivated
 oorskry.excede
@@ -1267,6 +1270,8 @@ onderrig.teach
 verwerp.reject
 regspan.legal team
 gereed.ready
+veg.fight
+geveg.fight
 beveg.fight
 verhoed.prevent
 verhoed.hinder
@@ -1294,3 +1299,6 @@ algemene.general
 algemene.prevalent
 voortleef.survive
 oorleef.survive
+op te let.to notice
+op te let.notice
+af te lei.deduce
