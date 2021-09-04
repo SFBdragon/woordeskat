@@ -475,7 +475,7 @@ onthou.remember
 stap.step
 vroeë.early
 hou.hold
-West.west
+wes.west
 grond.ground
 belangstelling.interest
 bereik.reach
@@ -554,7 +554,9 @@ golf.wave
 laat val.drop
 hart.heart
 is.am
+hede.present
 huidige.present
+huidige.current
 swaar.heavy
 swaar.nephew
 dans.dance
@@ -589,7 +591,6 @@ vreugde.joy
 winter.winter
 Sat.sat
 geskryf.written
-wilde.wild
 wild.wild
 instrument.instrument
 gehou.kept
@@ -898,6 +899,7 @@ toespraak.speech
 reeks.range
 stoom.steam
 beweging.motion
+beweging.movement
 pad.path
 vloeistof.liquid
 bedoel.meant
