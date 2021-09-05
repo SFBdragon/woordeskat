@@ -792,7 +792,6 @@ tydperk.period
 dui.indicate
 radio.radio
 gepraat.spoke
-atoom.atom
 menslike.human
 geskiedenis.history
 uitwerking.effect
@@ -840,6 +839,7 @@ hoof.chief
 kolonie.colony
 klok.clock
 myn.mine
+myne.mine
 tie.tie
 betree.enter
 groot.major
@@ -854,7 +854,7 @@ druk.print
 dood.dead
 spot.spot
 woestyn.desert
-lift.lift
+lig.lift
 gestyg.rose
 kom.arrive
 meester.master
@@ -877,6 +877,7 @@ pa.dad
 brood.bread
 hef.charge
 laai.charge
+aankla.charge
 behoorlike.proper
 aanbod.offer
 slaaf.slave
@@ -930,6 +931,7 @@ vorentoe.forward
 soortgelyke.similar
 lei.guide
 ervaring.experience
+beleef.experience
 telling.score
 appel.apple
 gekoop.bought
@@ -988,7 +990,6 @@ gooi.throw
 skyn.shine
 eiendom.property
 kolom.column
-molekule.molecule
 kies.select
 verkeerd.wrong
 grys.gray
@@ -1234,7 +1235,6 @@ geheim.secret
 raad.advice
 besorg.concerned
 verskynsel.occurance
-deursnee.average
 gemiddeld.average
 ontwettig.illegal
 bui.mood
@@ -1291,7 +1291,7 @@ inteendeel.on the contrary
 belang.significance
 vereniging.association
 gang.passage
-beleef.polite
+beleefd.polite
 behoud.retention
 opsig.respect
 benaderings.approaches
