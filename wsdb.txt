@@ -893,6 +893,7 @@ liewe.dear
 vyand.enemy
 antwoord.reply
 drink.drink
+voorkom.prevent
 voorkom.occur
 gebeur.occur
 ondersteuning.support
@@ -1304,3 +1305,7 @@ oorleef.survive
 op te let.to notice
 op te let.notice
 af te lei.deduce
+vaardighede.skills
+ontbreek.missing
+tensy.unless
+onkunde.ignorance
