@@ -132,7 +132,6 @@ baie.very
 deur.through
 net.just
 vorm.form
-vonnis.sentence
 sin.sentence
 groot.great
 goed.great
@@ -201,6 +200,7 @@ as.than
 oproep.call
 eerste.first
 wat.who
+wie.who
 mag.may
 af.down
 kant.side
@@ -383,7 +383,6 @@ gemeenskaplike.common
 goud.gold
 moontlik.possible
 vliegtuig.plane
-plek.stead
 droë.dry
 droog.dry
 wonder.wonder
@@ -840,7 +839,8 @@ kolonie.colony
 klok.clock
 myn.mine
 myne.mine
-tie.tie
+das.tie
+vasmaak.tie
 betree.enter
 groot.major
 vars.fresh
@@ -899,6 +899,7 @@ gebeur.occur
 ondersteuning.support
 toespraak.speech
 reeks.range
+reeks.series
 stoom.steam
 beweging.motion
 beweging.movement
@@ -1035,7 +1036,7 @@ doeltreffend.effective
 dwelm.drug
 deurslaggewende.crucial
 egter.however
-fluks.diligent
+ywerig.diligent
 gemaaklik.comfortable
 geduldig.patient
 gepaardgaande.associated
