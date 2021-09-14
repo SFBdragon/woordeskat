@@ -557,7 +557,7 @@ hede.present
 huidige.present
 huidige.current
 swaar.heavy
-swaar.nephew
+swaer.nephew
 dans.dance
 enjin.engine
 posisie.position
