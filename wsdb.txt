@@ -252,6 +252,7 @@ laat.late
 hardloop.run
 terwyl.while
 pers.press
+druk.press
 naby.close
 nag.night
 werklike.real
@@ -424,7 +425,7 @@ figuur.figure
 ster.star
 boks.box
 naamwoord.noun
-gebied.field
+veld.field
 res.rest
 korrekte.correct
 in staat.able
@@ -588,10 +589,7 @@ lug.sky
 lug.air
 vreugde.joy
 winter.winter
-Sat.sat
 geskryf.written
-wild.wild
-instrument.instrument
 gehou.kept
 glas.glass
 gras.grass
@@ -654,7 +652,7 @@ verloor.lost
 bruin.brown
 dra.wear
 tuin.garden
-gelyke.equal
+gelyk.equal
 gestuur.sent
 kies.choose
 val.fall
@@ -746,7 +744,6 @@ afskrif.copy
 frase.phrase
 stil.silent
 hoë.tall
-sand.sand
 grond.soil
 rol.roll
 temperatuur.temperature
@@ -769,7 +766,7 @@ soldaat.soldier
 proses.process
 bedryf.operate
 oefen.practice
-afsonderlike.separate
+afsonderlik.separate
 moeilik.difficult
 dokter.doctor
 asseblief.please
@@ -851,6 +848,7 @@ geweer.gun
 toelaat.allow
 druk.pressure
 druk.print
+druk.push
 dood.dead
 spot.spot
 woestyn.desert
@@ -1000,7 +998,7 @@ kolom.column
 kies.select
 verkeerd.wrong
 grys.gray
-herhaling.repeat
+herhaal.repeat
 vereis.require
 sout.salt
 neus.nose
@@ -1020,7 +1018,7 @@ aanbevelings.recommendations
 aanvaar.accept
 beskou.regard
 bedreiging.threat
-beskikbaarheid.availability
+beskikbaar.available
 bereking.evaluation
 bydra.contribute
 beoogde.proposed
@@ -1056,7 +1054,6 @@ handgemaakte.handmade
 hakke.heels
 huiver.hesitate
 hoofsaaklik.mainly
-huidige.current
 ingewikkeld.complicated
 inperkings.restrictions
 ingedien.submitted
@@ -1291,7 +1288,6 @@ bankrot.bankrupt
 verpligting.obligation
 verset.resistance
 uitgediende.obsolete
-belasting.tax
 verregaande.outrageous
 twyfel.doubt
 inteendeel.on the contrary
@@ -1312,6 +1308,5 @@ op te let.to notice
 op te let.notice
 af te lei.deduce
 vaardighede.skills
-ontbreek.missing
 tensy.unless
 onkunde.ignorance
