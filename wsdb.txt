@@ -965,7 +965,7 @@ sukses.success
 maatskappy.company
 aftrek.subtract
 gebeurtenis.event
-bepaal.determined
+bepaal.determine
 bepaalde.determined
 vasberade persoon.determined person
 vasgeslote om.determined to
@@ -982,7 +982,6 @@ verspreiding.spread
 kamp.camp
 bedink.invent
 gebore.born
-bepaal.determine
 nege.nine
 vragmotor.truck
 geraas.noise
@@ -1110,6 +1109,7 @@ tevergeefs.impossible
 toepassing.application
 toon.prove
 tans.now
+tans.currently
 tree.pace
 tree.step
 teenoor.concerning
@@ -1310,3 +1310,7 @@ af te lei.deduce
 vaardighede.skills
 tensy.unless
 onkunde.ignorance
+stadium.stage
+stadium.stadium
+kollega.colleague
+mislukking.failure
