@@ -1314,3 +1314,7 @@ stadium.stage
 stadium.stadium
 kollega.colleague
 mislukking.failure
+afgod.idol
+blootstel.expose
+bied aan.offer
+aanbied.offer
