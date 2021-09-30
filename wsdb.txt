@@ -207,7 +207,7 @@ kant.side
 gewees.been
 nou.now
 vind.find
-hoof.head
+kop.head
 staan.stand
 eie.own
 bladsy.page
@@ -575,7 +575,6 @@ sit.sit
 venster.window
 winkel.store
 somer.summer
-sommer.just as well
 trein.train
 slaap.sleep
 bewys.prove
