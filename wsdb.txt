@@ -654,8 +654,8 @@ kies.choose
 val.fall
 pas.fit
 vloei.flow
-billike.fair
-billik.fair
+redelik.reasonable
+regverdig.fair
 bank.bank
 versamel.collect
 red.save
