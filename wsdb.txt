@@ -74,7 +74,9 @@ hoog.high
 hoë.high
 sodanige.such
 volg.follow
-Wet.act
+'n daad.an act
+optree.perform
+optree.act
 Hoekom.why
 vra.ask
 mans.men
@@ -269,7 +271,6 @@ begin.began
 idee.idea
 vis.fish
 berg.mountain
-stop.stop
 basis.base
 hoor.hear
 perd.horse
@@ -353,7 +354,7 @@ vertel.told
 geweet.knew
 slaag.pass
 sedert.since
-top.top
+bopunt.top
 hele.whole
 koning.king
 straat.street
@@ -400,7 +401,6 @@ gebring.brought
 hitte.heat
 sneeu.snow
 band.tire
-bring.bring
 Ja.yes
 ver.distant
 vul.fill
@@ -424,7 +424,6 @@ plan.plan
 figuur.figure
 ster.star
 boks.box
-naamwoord.noun
 veld.field
 res.rest
 korrekte.correct
@@ -441,14 +440,13 @@ week.week
 finale.final
 gegee.gave
 groen.green
-o.oh
-vinnige.quick
 vinnig.quick
 ontwikkel.develop
 oseaan.ocean
 warm.warm
 warm.hot
 gratis.free
+vry.free
 minuut.minute
 sterk.strong
 spesiale.special
@@ -480,7 +478,6 @@ grond.ground
 belangstelling.interest
 bereik.reach
 vinnig.fast
-werkwoord.verb
 sing.sing
 luister.listen
 ses.six
@@ -1000,7 +997,6 @@ herhaal.repeat
 vereis.require
 sout.salt
 neus.nose
-meervoud.plural
 woede.anger
 eis.claim
 vasteland.continent
