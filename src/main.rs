@@ -10,6 +10,12 @@ use colored::*;
 #[cfg(not(feature = "colored"))]
 use uncolored::*;
 
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+enum TlBehaviour {
+    AftToEng,
+    EngToAfr,
+    Bidir,
+}
 
 fn main() {
     let mut wsdb_file = File::open(Path::new("wsdb.txt")).unwrap();
@@ -27,8 +33,8 @@ fn main() {
         println!("");
     }
 
-    let mut afr_map: HashMap<String, Vec<String>> = HashMap::with_capacity(1250);
-    let mut eng_map: HashMap<String, Vec<String>> = HashMap::with_capacity(1400);
+    let mut afr_map: HashMap<String, Vec<String>> = HashMap::with_capacity(1600);
+    let mut eng_map: HashMap<String, Vec<String>> = HashMap::with_capacity(1700);
 
     for tl in wsdb_string.lines() {
         if let Some((afr, eng)) = tl.split_once('.') {
@@ -57,6 +63,31 @@ fn main() {
     println!("{}", "    WOORDESKAT APPLICATION".bold());
     println!("------------------------------\n");
 
+    println!("Choose translation type:\n(1) Afrikaans -> English\n(2) English -> Afrikaans\n(3) Bidirictional (default)");
+    let tl_behaviour;
+    { 
+        let mut buf = String::new();
+        loop {
+            buf.clear();
+            stdin().lock().read_line(&mut buf).expect("DECISION READ ERROR");
+            buf = buf.trim().to_string();
+            if buf.is_empty() {
+                tl_behaviour = TlBehaviour::Bidir;
+                break;
+            } else if buf.contains("1") {
+                tl_behaviour = TlBehaviour::AftToEng;
+                break;
+            } else if buf.contains("2") {
+                tl_behaviour = TlBehaviour::EngToAfr;
+                break;
+            } else if buf.contains("3") {
+                tl_behaviour = TlBehaviour::Bidir;
+                break;
+            }
+        }
+    }
+    println!("\n------------------------------");
+
     let mut count = 0usize;
     let mut errors = VecDeque::with_capacity(5);
     let mut enforces = VecDeque::with_capacity(10);
@@ -84,7 +115,7 @@ fn main() {
         } else {
             count += 1;
             counter = count.to_string().white();
-            if random() {
+            if enact_tl_behaviour(tl_behaviour) {
                 let key = afr_vec[random::<usize>() % afr_vec.len()];
                 (key, "Afrikaans".magenta(), afr_map.get(key).expect(""), "English".blue())
             } else {
@@ -113,5 +144,13 @@ fn main() {
             print!(", {}", tl);
         }
         println!("");
+    }
+}
+
+fn enact_tl_behaviour(behaviour: TlBehaviour) -> bool {
+    match behaviour {
+        TlBehaviour::AftToEng => true,
+        TlBehaviour::EngToAfr => false,
+        TlBehaviour::Bidir => random()
     }
 }

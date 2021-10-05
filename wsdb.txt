@@ -11,7 +11,6 @@ met.with
 hulle.they
 wees.be
 op.at
-een.one
 het.have
 hierdie.this
 uit.from
@@ -49,7 +48,6 @@ elke.each
 vertel.tell
 doen.does
 stel.set
-drie.three
 wil.want
 goed.well
 ook.also
@@ -77,7 +75,9 @@ volg.follow
 'n daad.an act
 optree.perform
 optree.act
-Hoekom.why
+waarom.why
+hoekom.why
+hoekom.how come
 vra.ask
 mans.men
 verander.change
@@ -179,7 +179,6 @@ maak.make
 ding.thing
 sien.see
 hom.him
-twee.two
 het.has
 kyk.look
 meer.more
@@ -227,7 +226,6 @@ dekking.cover
 voedsel.food
 kos.food
 son.sun
-vier.four
 tussen.between
 staat.state
 hou.keep
@@ -436,8 +434,6 @@ ry.ride
 gestaan.stood
 bevat.contain
 leer.teach
-week.week
-finale.final
 gegee.gave
 groen.green
 vinnig.quick
@@ -464,11 +460,8 @@ gehoor.heard
 beste.best
 uur.hour
 beter.better
-ware.true
 waar.true
 tydens.during
-honderd.hundred
-vyf.five
 onthou.remember
 stap.step
 vroeë.early
@@ -478,18 +471,14 @@ grond.ground
 belangstelling.interest
 bereik.reach
 vinnig.fast
-sing.sing
 luister.listen
-ses.six
 tafel.table
 reis.travel
 minder.less
 oggend.morning
-tien.ten
 eenvoudige.simple
 eenvoudig.simple
 verskeie.several
-vokaal.vowel
 teenoor.toward
 oorlog.war
 lê.lay
@@ -673,7 +662,6 @@ hard.loud
 lente.spring
 kind.child
 reguit.straight
-konsonant.consonant
 nasie.nation
 woordeboek.dictionary
 melk.milk
@@ -699,14 +687,12 @@ yster.iron
 enkele.single
 stok.stick
 plat.flat
-twintig.twenty
 vel.skin
 glimlag.smile
 toename.increase
 gat.hole
 spring.jump
 baba.baby
-agt.eight
 dorpie.village
 ontmoet.meet
 wortel.root
@@ -716,7 +702,6 @@ oplos.solve
 metaal.metal
 of.whether
 stoot.push
-sewe.seven
 paragraaf.paragraph
 derde.third
 sal.shall
@@ -978,7 +963,6 @@ verspreiding.spread
 kamp.camp
 bedink.invent
 gebore.born
-nege.nine
 vragmotor.truck
 geraas.noise
 vlak.level
