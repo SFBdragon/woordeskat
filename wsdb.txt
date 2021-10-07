@@ -36,6 +36,7 @@ uit.out
 ander.other
 was.were
 wat.which
+watter.which
 doen.do
 hul.their
 tyd.time
@@ -389,7 +390,6 @@ wonder.wonder
 lag.laugh
 duisend.thousand
 gelede.ago
-hardloop.ran
 kyk.check
 spel.game
 vorm.shape
