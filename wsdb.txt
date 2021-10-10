@@ -63,7 +63,7 @@ hawe.port
 hawe.harbour
 groot.large
 spel.spell
-voeg.add
+byvoeg.add
 selfs.even
 land.land
 hier.here
@@ -831,7 +831,6 @@ druk.pressure
 druk.print
 druk.push
 dood.dead
-spot.spot
 woestyn.desert
 lig.lift
 gestyg.rose
@@ -881,6 +880,7 @@ toespraak.speech
 reeks.range
 reeks.series
 stoom.steam
+beweeg.move
 beweging.motion
 beweging.movement
 pad.path
